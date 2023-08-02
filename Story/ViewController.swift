@@ -9,11 +9,23 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    
+    @IBOutlet weak var storyLabel: UILabel!
+    @IBOutlet weak var choiceOne: UIButton!
+    @IBOutlet weak var choiceTwo: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        storyLabel.text = "Вы видите развилку на дороге"
+        choiceOne.setTitle("Поверни налево.", for: .normal)
+        choiceTwo.setTitle("Поверни направо.", for: .normal)
     }
 
+    
+    @IBAction func takeAnswer(_ sender: UIButton) {
+        
+    }
+    
 
 }
 
