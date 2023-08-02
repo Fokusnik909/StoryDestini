@@ -58,13 +58,37 @@
 			children = (
 				C8E431322A7A516C00B28D09 /* AppDelegate.swift */,
 				C8E431342A7A516C00B28D09 /* SceneDelegate.swift */,
-				C8E431362A7A516C00B28D09 /* ViewController.swift */,
-				C8E431382A7A516C00B28D09 /* Main.storyboard */,
+				C8E4314B2A7A563F00B28D09 /* Moder */,
+				C8E431492A7A562D00B28D09 /* View */,
+				C8E4314A2A7A563400B28D09 /* Controller */,
 				C8E4313B2A7A516C00B28D09 /* Assets.xcassets */,
 				C8E4313D2A7A516C00B28D09 /* LaunchScreen.storyboard */,
 				C8E431402A7A516C00B28D09 /* Info.plist */,
 			);
 			path = Story;
+			sourceTree = "<group>";
+		};
+		C8E431492A7A562D00B28D09 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C8E431382A7A516C00B28D09 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C8E4314A2A7A563400B28D09 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C8E431362A7A516C00B28D09 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C8E4314B2A7A563F00B28D09 /* Moder */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Moder;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
